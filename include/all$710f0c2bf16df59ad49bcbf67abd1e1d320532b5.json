@@ -53,12 +53,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:kevwis/wsk-module-import-export.git",
-                    "reference": "180c29bd7e08a492bece8413846bca7d6c31e187"
+                    "reference": "66bf3de1fd5aa029d2e10718b8f3d28b2ba73572"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/kevwis/wsk-module-import-export/zipball/180c29bd7e08a492bece8413846bca7d6c31e187",
-                    "reference": "180c29bd7e08a492bece8413846bca7d6c31e187",
+                    "url": "https://api.github.com/repos/kevwis/wsk-module-import-export/zipball/66bf3de1fd5aa029d2e10718b8f3d28b2ba73572",
+                    "reference": "66bf3de1fd5aa029d2e10718b8f3d28b2ba73572",
                     "shasum": ""
                 },
                 "require": {
@@ -71,7 +71,7 @@
                     "magento/module-store": "100.1.*",
                     "php": "~5.6.5|7.0.2|7.0.4|~7.0.6"
                 },
-                "time": "2017-03-24T13:43:30+00:00",
+                "time": "2017-03-24T14:31:24+00:00",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -87,7 +87,7 @@
                 ],
                 "description": "N/A",
                 "support": {
-                    "source": "https://github.com/kevwis/wsk-module-import-export/tree/1.0.0",
+                    "source": "https://github.com/kevwis/wsk-module-import-export/tree/master",
                     "issues": "https://github.com/kevwis/wsk-module-import-export/issues"
                 }
             }

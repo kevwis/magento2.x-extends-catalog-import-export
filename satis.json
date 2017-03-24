@@ -1,6 +1,6 @@
 {
   "name": "Wsk Repository",
-  "homepage": "https://kevwis.com",
+  "homepage": "https://github.kevwis.com",
   "repositories": [
     { "type": "vcs", "url": "https://github.com/kevwis/wsk-module-import-export" }
   ],
