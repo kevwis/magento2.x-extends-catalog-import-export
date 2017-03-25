@@ -94,13 +94,20 @@ class Product extends \Magento\CatalogImportExport\Model\Export\Product
         $this->scopeConfig = $scopeConfig;
     }
 
+    /**
+     * @return bool
+     */
+    protected function _isAdvancedExportEnabled()
+    {
+        return (bool) $this->scopeConfig->getValue('wsk_import_export/advanced_export_product/enabled');
+    }
 
     /**
      * @return array
      */
     protected function _getExportExcludeAttrCodes()
     {
-        return explode(',', $this->scopeConfig->getValue('wsk_import_export/advanced_export_product/additional_attributes'));
+        return explode(',', $this->scopeConfig->getValue('wsk_import_export/advanced_export_product/exclude_attributes'));
     }
 
     /**
@@ -108,9 +115,6 @@ class Product extends \Magento\CatalogImportExport\Model\Export\Product
      */
     protected function _getExportMainAttrCodes()
     {
-
-        $this->_logger->debug(__FUNCTION__, [$this->_getExportExcludeAttrCodes()]);
-
         return array_diff(array_merge($this->_exportMainAttrCodes, $this->_getExportAttrCodes()), $this->_getExportExcludeAttrCodes());
     }
 }
