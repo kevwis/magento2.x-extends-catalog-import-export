@@ -27,8 +27,8 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/kevwis/wsk-module-import-export"
+            "type": "composer",
+            "url": "http://repos.kevwis.com"
         }
     ]
 }
