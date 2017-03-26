@@ -2,7 +2,7 @@
 /**
  * Copyright © 2017 Kevwis. All rights reserved.
  */
-namespace Wsk\ImportExport\Model\Export\Catalog;
+namespace Kevwis\CatalogImportExport\Model\Export\Catalog;
 
 use Magento\Catalog\Model\Product\LinkTypeProvider;
 use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory as CategoryCollectionFactory;
@@ -99,7 +99,7 @@ class Product extends \Magento\CatalogImportExport\Model\Export\Product
      */
     protected function _isAdvancedExportEnabled()
     {
-        return (bool) $this->scopeConfig->getValue('wsk_import_export/advanced_export_product/enabled');
+        return (bool) $this->scopeConfig->getValue('kevwis_catalog_import_export/advanced_export_product/enabled');
     }
 
     /**
@@ -107,7 +107,7 @@ class Product extends \Magento\CatalogImportExport\Model\Export\Product
      */
     protected function _getExportExcludeAttrCodes()
     {
-        return explode(',', $this->scopeConfig->getValue('wsk_import_export/advanced_export_product/exclude_attributes'));
+        return explode(',', $this->scopeConfig->getValue('kevwis_catalog_import_export/advanced_export_product/exclude_attributes'));
     }
 
     /**
