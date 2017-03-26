@@ -6,12 +6,12 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
-        <wsk_import_export>
+        <kevwis_catalog_import_export>
             <advanced_export_product>
                 <enabled>0</enabled>
                 <only_filterable_attributes>0</only_filterable_attributes>
                 <exclude_attributes/>
             </advanced_export_product>
-        </wsk_import_export>
+        </kevwis_catalog_import_export>
     </default>
 </config>
