@@ -1,6 +1,6 @@
 {
-    "name": "kevwis/module-catalog-import-export",
-    "description": "Override Magento2 catalog import/export module",
+    "name": "kevwis/extends-catalog-import-export",
+    "description": "Extends Magento 2.x catalog import/export module",
     "require": {
         "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
         "magento/module-catalog": "101.0.*",
