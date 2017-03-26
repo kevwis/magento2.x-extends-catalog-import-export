@@ -5,5 +5,5 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_ImportExport:etc/export.xsd">
-    <entity name="catalog_product" label="Products" model="Wsk\ImportExport\Model\Export\Catalog\Product" entityAttributeFilterType="catalog_product"/>
+    <entity name="catalog_product" label="Products" model="Kevwis\CatalogImportExport\Model\Export\Catalog\Product" entityAttributeFilterType="catalog_product"/>
 </config>
