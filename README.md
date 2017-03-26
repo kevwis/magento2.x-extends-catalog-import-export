@@ -1,4 +1,4 @@
-# wsk-module-import-export
+# kevwis-module-catalog-import-export
 
 
 - Export all attributes in separate columns when exporting products
