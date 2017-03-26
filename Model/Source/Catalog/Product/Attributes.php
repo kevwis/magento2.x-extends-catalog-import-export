@@ -1,5 +1,5 @@
 <?php
-namespace Wsk\ImportExport\Model\Source\Catalog\Product;
+namespace Kevwis\CatalogImportExport\Model\Source\Catalog\Product;
 
 use Magento\Catalog\Model\Config;
 use Magento\Catalog\Model\ResourceModel\Product\Attribute\CollectionFactory;
@@ -51,7 +51,7 @@ class Attributes extends AbstractSource
             $attributeCollection = $this->attributeCollectionFactory->create();
             $this->_options = [];
 
-            if ((bool) $this->scopeConfig->getValue('wsk_import_export/advanced_export_product/only_filterable_attributes')) {
+            if ((bool) $this->scopeConfig->getValue('kevwis_catalog_import_export/advanced_export_product/only_filterable_attributes')) {
                 $attributeCollection->addIsFilterableFilter();
             }
 
