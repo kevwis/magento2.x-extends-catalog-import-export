@@ -1,6 +1,6 @@
 {
-    "name": "wsk/module-import-export",
-    "description": "Override Magento2 import/export module",
+    "name": "kevwis/module-catalog-import-export",
+    "description": "Override Magento2 catalog import/export module",
     "require": {
         "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
         "magento/module-catalog": "101.0.*",
@@ -33,13 +33,13 @@
             "registration.php"
         ],
         "psr-4": {
-            "Wsk\\ImportExport\\": ""
+            "Kevwis\\CatalogImportExport\\": ""
         }
     },
     "repositories": [
         {
             "type": "composer",
-            "url": "http://repos.kevwis.com"
+            "url": "http://repos.kevwis.com/magento2.x"
         }
     ]
 }
